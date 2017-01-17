@@ -1,0 +1,29 @@
+﻿<Window x:Class="HitTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HitTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ToolBarTray Orientation="Vertical" >
+            <ToolBar Name="ToolBar" >
+                <RadioButton Name="SelectButton">选取</RadioButton>
+                <RadioButton Name="AddButton">添加</RadioButton>
+                <RadioButton Name="DeleteButton">删除</RadioButton>
+                <RadioButton Name="MultiSelect">多选</RadioButton>
+
+            </ToolBar>
+        </ToolBarTray>
+        
+        <local:DrawingCanvas Grid.Column="1" x:Name="drawingBoard" Background="White" ClipToBounds="True" 
+                             MouseLeftButtonDown="drawingBoard_OnMouseLeftButtonDown"
+                             MouseLeftButtonUp="drawingBoard_OnMouseLeftButtonUp"
+                             MouseMove="drawingBoard_OnMouseMove"/>
+    </Grid>
+</Window>

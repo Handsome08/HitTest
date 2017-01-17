@@ -1,0 +1,15 @@
+E:\HitTest\HitTest\obj\Debug\MainWindow.g.cs
+E:\HitTest\HitTest\obj\Debug\App.g.cs
+E:\HitTest\HitTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HitTest\HitTest\obj\Debug\HitTest_MarkupCompile.cache
+E:\HitTest\HitTest\obj\Debug\HitTest_MarkupCompile.lref
+E:\HitTest\HitTest\obj\Debug\HitTest.exe
+E:\HitTest\HitTest\obj\Debug\HitTest.pdb
+E:\HitTest\HitTest\bin\Debug\HitTest.exe.config
+E:\HitTest\HitTest\bin\Debug\HitTest.exe
+E:\HitTest\HitTest\bin\Debug\HitTest.pdb
+E:\HitTest\HitTest\obj\Debug\MainWindow.baml
+E:\HitTest\HitTest\obj\Debug\HitTest.g.resources
+E:\HitTest\HitTest\obj\Debug\HitTest.Properties.Resources.resources
+E:\HitTest\HitTest\obj\Debug\HitTest.csproj.GenerateResource.Cache
+E:\HitTest\HitTest\obj\Debug\HitTest.csprojResolveAssemblyReference.cache
